@@ -1,0 +1,32 @@
+$background-dark : #5C48AD;
+$background-light: #E6E2F3;
+$background-footer: #B4A9DB;
+
+$carousel-item-height: 340px;
+$carousel-item-width: 360px;
+
+@mixin zero-margin($pad-up-dn, $pad-left-right){
+    margin: 0px auto;
+    padding: $pad-up-dn $pad-left-right;
+}
+
+
+.navbar{
+    background: $background-dark;
+}
+
+.modal{
+    .modal-header{
+        background: $background-dark;
+        color: floralwhite;
+        .fa{
+            color: floralwhite;
+        }
+    }
+    .modal-body{
+        background: $background-light;
+    }
+    .modal-footer{
+        background: $background-footer;
+    }
+}
