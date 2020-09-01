@@ -1,3 +1,14 @@
-.navbar-dark{
-    background: #2EC0F9;
-}
+.navbar {
+  background: #5C48AD; }
+
+.modal .modal-header {
+  background: #5C48AD;
+  color: floralwhite; }
+  .modal .modal-header .fa {
+    color: floralwhite; }
+
+.modal .modal-body {
+  background: #E6E2F3; }
+
+.modal .modal-footer {
+  background: #B4A9DB; }
